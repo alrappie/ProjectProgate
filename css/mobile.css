@@ -4,8 +4,12 @@
         display: none;
         visibility: hidden;
     }
+    .header-logo{
+        text-align: center;
+    }
     .main-body .title{
         padding-bottom: 10px;
+        margin: auto;
     }
 
     .fa-thumbtack{
@@ -25,14 +29,42 @@
     transform:translateX(10px) translateY(10px) scaleX(1.1) scaleY(1.1);
     }
 
+    .card{
+        width:250px;
+        height: 300px;
+    }
+
+    .image{
+        display: block;
+        padding: 10px;
+        width: 250px;
+        height: 270px;
+        align-items: center;
+        text-align: center;
+    }
+
     .card:active img{
         transform: translateX(-46px) translateY(-40px);
         position: absolute;
-        width: 350px;
-        height: 400px;
+        width: 300px;
+        height: 320px;
         z-index: 9;
     }
 
+    .card::after{
+        display: none;
+        visibility: hidden;
+    }
+
+    /* .card:hover::after{
+        visibility: hidden;
+        display: none;
+    } */
+    .text-left::after,
+    .text-right::after{
+        display: none;
+        visibility: hidden;
+}
 
 
 }
