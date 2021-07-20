@@ -1,0 +1,38 @@
+@media (max-width: 670px) {
+    .header-left,
+    .header-right{
+        display: none;
+        visibility: hidden;
+    }
+    .main-body .title{
+        padding-bottom: 10px;
+    }
+
+    .fa-thumbtack{
+        display: none;
+        visibility: hidden;
+    }
+    .text-left,
+    .text-right{
+        width: 100%;
+    }
+    .mypicture{
+        height: 100%;
+    }
+
+    .text-left:active,
+    .text-right:active{ 
+    transform:translateX(10px) translateY(10px) scaleX(1.1) scaleY(1.1);
+    }
+
+    .card:active img{
+        transform: translateX(-46px) translateY(-40px);
+        position: absolute;
+        width: 350px;
+        height: 400px;
+        z-index: 9;
+    }
+
+
+
+}
