@@ -64,7 +64,11 @@
     .text-right::after{
         display: none;
         visibility: hidden;
+    }   
 }
 
-
+@media (max-width: 1000px) {
+    .mypicture{
+        height: 1180px;
+    }
 }

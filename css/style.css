@@ -213,9 +213,11 @@ a{
     top: -10px;
     right: -30px;
     color: rgb(241, 241, 64);
+    font-weight: bolder;
     transition: .3s;
     visibility: hidden;
     z-index: 1;
+    text-shadow: 1px 1px black;
 }
 
 .card:hover{
