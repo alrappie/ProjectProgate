@@ -20,9 +20,6 @@
     .text-right{
         width: 100%;
     }
-    .mypicture{
-        height: 100%;
-    }
 
     .text-left:active,
     .text-right:active{ 
@@ -65,10 +62,19 @@
         display: none;
         visibility: hidden;
     }   
+
+    .mypicture{
+        height: 1860px !important;
+        /* padding-bottom: 20px; */
+    }
+    .fa-dove{
+        top: 0;
+        right: 0;
+    }
 }
 
 @media (max-width: 1000px) {
     .mypicture{
-        height: 1180px;
+        height: 100% !important;
     }
 }

@@ -119,6 +119,12 @@ a{
 .fa-cat{
     color: rgb(26, 37, 71);
 }
+.fa-dove{
+    color:cornflowerblue;
+    position: absolute;
+    top: 3%;
+    right: 6%;
+}
 .text-left,
 .text-right{
     position: relative;
@@ -172,12 +178,15 @@ a{
 }
 
 .mypicture{
+    position: relative;
     background-color: #424242;
     text-align: center;
     color: white;
-    height: 830px;
+    height: 100%;
+    padding-bottom: 30px;
 }
 .title{
+    position: relative;
     display: block;
     font-family: 'Courier New', Courier, monospace !important;
     font-size: 24px;
